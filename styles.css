@@ -1,0 +1,59 @@
+/* Elements*/
+body {
+    background-image: url("https://www.adamhammond.com/90s/radiohead/images/guitar.jpg");
+    cursor:url("https://www.adamhammond.com/90s/radiohead/images/picks.jpg"),auto;
+    font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	font-size:150%;
+}
+
+h1 {
+	color:purple;
+	text-align:center;
+	text-decoration:underline;
+	text-transform:uppercase;
+    transition: color 0.5s ease-in-out;
+}
+
+h1:hover {
+    color: red;
+}
+
+p {
+    color: green;
+}
+
+/* Classes*/ 
+.center {
+    cursor:auto;
+	position:relative;
+	margin-bottom:50px;
+	padding:25px;
+	width: 800px; 
+	margin: 50px auto;
+	text-align: left;
+	box-shadow: 15px 15px 15px #3AA468;
+	border-radius: 22px;
+	border:#FF009D 20px double;
+}
+
+
+
+.blink {
+    animation: blink .75s linear infinite;
+}
+
+
+/*Link styling*/
+a {color:#00FF69;text-decoration:none;} 
+a:hover {color:#FF7A02; cursor:url("https://www.adamhammond.com/90s/radiohead/images/picks.jpg"),auto;}
+a:active {color:#790002;}  /* selected link */
+
+/*Animations*/
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+/*Media*/
