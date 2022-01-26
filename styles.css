@@ -27,8 +27,7 @@ p {
     cursor:auto;
 	position:relative;
 	margin-bottom:50px;
-	padding:25px;
-	width: 800px; 
+	padding:25px; 
 	margin: 50px auto;
 	text-align: left;
 	box-shadow: 15px 15px 15px #3AA468;
@@ -57,3 +56,8 @@ a:active {color:#790002;}  /* selected link */
 }
 
 /*Media*/
+@media only screen and (min-width: 800px) {
+    .center {
+        width: 800px;
+    }
+  }
